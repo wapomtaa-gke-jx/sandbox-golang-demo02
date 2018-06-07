@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.11.244.238:5000/wapomtaa/sandbox-golang-demo02
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: sandbox-golang-demo02
